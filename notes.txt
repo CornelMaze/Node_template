@@ -1,0 +1,38 @@
+MERN Stack Advanced Authentication Tutorial
+-------------------------------------------
+To use the dotenv file we have to require it like so:
+ => require('dotenv').config({path: "./config.env"});
+To generate a random string for our jwt secret key we can run:
+ => node
+ => require('crypto').randomBytes(35).toString('hex')
+
+To access the protected route:
+ => set the header to "authorization"
+ => write "Bearer " and then the token. Remember to put a space in front of the Bearer.
+
+To send emails we use nodemailer
+ => npm i nodemailer
+
+To use the mail we have to create an account with sendGrid
+ =>sendgrid.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
